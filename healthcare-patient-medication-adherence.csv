@@ -1,0 +1,201 @@
+patient_id,medication_id,prescription_id,prescriber_id,pharmacy_id,prescription_date,pickup_date,expected_refill_date,actual_refill_date,days_supply,adherence_score,self_reported_adherence,nonadherence_reason,intervention_flag,intervention_date,intervention_type,medication_name,medication_dosage,medication_frequency,patient_age,patient_gender
+P20987,M412C,RX1000001,DR101,PH3201,2023-11-04,2023-11-05,2023-12-05,2023-12-04,30,0.97,always,,false,,,Atorvastatin,20mg,once daily,59,female
+P20334,M287B,RX1000002,DR102,PH3202,2024-01-15,2024-01-16,2024-02-15,2024-02-13,30,0.92,always,,false,,,Metformin,500mg,twice daily,72,male
+P21456,M981F,RX1000003,DR103,PH3203,2023-07-21,,,,,0,never,forgot,true,2023-07-31,sms,Sertraline,50mg,once daily,27,female
+P21890,M186G,RX1000004,DR104,PH3204,2023-09-10,2023-09-10,2023-09-24,2023-09-23,14,1,always,,false,,,Amoxicillin,250mg,three times daily,6,male
+P20222,M401D,RX1000005,DR105,,2022-04-17,,,,,0,never,could not afford,true,2022-04-22,phone_call,Lisinopril,10mg,once daily,45,male
+P21113,M789N,RX1000006,DR106,PH3205,2023-10-03,2023-10-03,2023-11-03,2023-11-05,31,0.88,always,,false,,,Levothyroxine,75mcg,once daily,66,female
+P20654,M333T,RX1000007,,,2024-03-08,2024-03-09,2024-04-08,2024-04-07,30,0.96,always,,false,,,Amlodipine,5mg,once daily,61,male
+P21345,M444A,RX1000008,DR107,PH3206,2022-12-19,2022-12-19,2023-01-18,2023-01-19,30,0.77,sometimes,forgot,false,,,Hydrochlorothiazide,25mg,once daily,83,female
+P21912,M812F,RX1000009,DR108,PH3207,2022-09-01,,,,,0,never,side effects,true,2022-09-06,counseling,Simvastatin,40mg,once daily,61,female
+P21757,M624K,RX1000010,DR109,PH3208,2023-05-29,2023-05-30,2023-06-27,2023-06-26,28,0.91,always,,false,,,Montelukast,10mg,once daily,13,male
+P21534,M293Q,RX1000011,DR110,,2023-02-07,,,,,0,never,no symptoms,true,2023-02-12,phone_call,Fluoxetine,20mg,once daily,19,female
+P20012,M113L,RX1000012,DR111,PH3209,2024-02-25,2024-02-26,2024-03-28,2024-03-28,30,0.97,always,,false,,,Rosuvastatin,10mg,once daily,78,male
+P20146,M134B,RX1000013,DR112,PH3210,2023-08-09,2023-08-10,2023-08-24,2023-08-23,14,0.95,always,,false,,,Azithromycin,500mg,once daily,8,male
+P21232,M225H,RX1000014,DR113,PH3211,2023-06-11,2023-06-12,2023-07-10,2023-07-09,28,0.82,sometimes,forgot,false,,,Warfarin,2mg,once daily,85,female
+P21576,M551M,RX1000015,DR114,PH3212,2022-07-22,,,,,0,never,lost prescription,true,2022-07-25,phone_call,Clopidogrel,75mg,once daily,52,male
+P20781,M891C,RX1000016,DR115,,2023-03-14,2023-03-15,2023-03-29,2023-03-28,14,0.85,always,,false,,,Albuterol,2 puffs,as needed,11,female
+P21608,M421L,RX1000017,DR116,PH3213,2022-10-20,2022-10-21,2022-11-20,2022-11-22,30,0.72,sometimes,difficulty swallowing,false,,,Apixaban,5mg,twice daily,76,female
+P20809,M642V,RX1000018,DR117,PH3214,2023-01-12,,,,,0,never,no symptoms,true,2023-01-15,education,Paroxetine,20mg,once daily,32,female
+P20077,M562C,RX1000019,DR118,PH3215,2022-05-07,2022-05-08,2022-06-08,2022-06-09,31,0.92,always,,false,,,Metoprolol,50mg,once daily,67,male
+P21213,M119R,RX1000020,,PH3216,2024-03-11,2024-03-12,2024-03-26,2024-03-25,14,0.9,always,,false,,,Penicillin VK,250mg,twice daily,5,male
+P21101,M872P,RX1000021,DR119,,2022-08-18,,,,,0,never,prescription lost,true,2022-08-21,other,Ibuprofen,400mg,as needed,23,male
+P20264,M229Q,RX1000022,DR120,PH3217,2023-11-30,2023-12-01,2023-12-29,2023-12-29,28,0.81,sometimes,travel,false,,,Enalapril,10mg,once daily,69,female
+P21823,M702F,RX1000023,DR121,PH3218,2022-06-14,2022-06-14,2022-06-21,2022-06-23,7,0.93,always,,false,,,Prednisone,10mg,once daily,15,female
+P21412,M309J,RX1000024,DR122,PH3219,2023-09-16,2023-09-16,2023-10-16,2023-10-15,30,0.91,always,,false,,,Omeprazole,20mg,once daily,52,male
+P21278,M933T,RX1000025,DR123,PH3220,2022-11-27,,,,,0.28,rarely,side effects,true,2022-12-01,counseling,Gabapentin,300mg,twice daily,47,female
+P20001,M001A,RX1000026,DR124,PH3221,2023-04-28,2023-04-29,2023-05-26,2023-05-26,28,0.93,always,,false,,,Citalopram,20mg,once daily,36,female
+P21720,M724B,RX1000027,DR125,PH3222,1900-01-01,,,,,0,never,system error,true,1900-01-02,other,Experimental,0mg,unknown,0,unknown
+P21685,M453R,RX1000028,DR126,PH3223,2024-03-25,2024-03-26,2024-04-23,2024-04-24,28,0.74,sometimes,forgot,false,,,Losartan,50mg,once daily,73,male
+P21367,M612U,RX1000029,DR127,,2023-10-27,2023-10-28,2023-11-27,2023-11-30,30,0.69,sometimes,travel,false,,,Duloxetine,60mg,once daily,55,other
+P21550,M499D,RX1000030,DR128,PH3224,2023-02-03,,,,,0.18,rarely,language barrier,true,2023-02-08,education,Aspirin,81mg,once daily,120,other
+P21098,M810V,RX1000031,DR129,,2023-03-18,2023-03-18,2023-04-15,2023-04-14,28,0.91,always,,false,,,Tramadol,50mg,as needed,49,female
+P20853,M192S,RX1000032,DR130,PH3225,2024-01-19,2024-01-21,2024-02-18,2024-02-18,28,0.89,always,,false,,,Esomeprazole,40mg,once daily,48,female
+P20544,M398E,RX1000033,DR131,PH3226,2022-09-24,,,,,0,never,forgot,true,2022-09-28,sms,Hydrochlorothiazide,25mg,once daily,41,male
+P21037,M203L,RX1000034,,PH3227,2022-03-07,2022-03-07,2022-04-04,2022-04-05,28,0.92,always,,false,,,Chlorthalidone,25mg,once daily,58,male
+P20182,M501G,RX1000035,DR132,PH3228,2023-05-11,2023-05-12,2023-06-11,2023-06-12,30,0.89,always,,false,,,Tamsulosin,0.4mg,once daily,70,male
+P20503,M801X,RX1000036,DR133,,2023-12-11,,,,,0,never,no symptoms,true,2023-12-16,phone_call,Sertraline,100mg,once daily,29,female
+P20697,M277Y,RX1000037,DR134,PH3229,2023-08-15,2023-08-16,2023-09-13,2023-09-12,28,0.76,sometimes,forgot,false,,,Glipizide,5mg,once daily,64,male
+P20351,M174W,RX1000038,DR135,PH3230,2022-10-13,2022-10-14,2022-11-11,2022-11-13,28,0.81,sometimes,travel,false,,,Candesartan,8mg,once daily,77,female
+P20934,M411F,RX1000039,DR136,,2023-06-23,2023-06-24,2023-07-22,2023-07-21,28,0.89,always,,false,,,Levothyroxine,50mcg,once daily,63,male
+P20083,M345C,RX1000040,,PH3231,2024-01-10,2024-01-10,2024-02-09,2024-02-08,30,0.93,always,,false,,,Rivaroxaban,20mg,once daily,68,female
+P21164,M198Q,RX1000041,DR137,PH3232,2023-10-09,2023-10-09,2023-11-06,2023-11-07,28,0.91,always,,false,,,Glimepiride,2mg,once daily,65,female
+P21852,M155H,RX1000042,DR138,,2022-12-06,,,,,0.13,rarely,forgot,true,2022-12-09,counseling,Amlodipine,10mg,once daily,44,female
+P20719,M215V,RX1000043,DR139,PH3233,2023-09-28,2023-09-29,2023-10-27,2023-10-26,28,0.95,always,,false,,,Dapagliflozin,10mg,once daily,60,male
+P20211,M188J,RX1000044,DR140,,2023-07-07,,,,,0,never,could not afford,true,2023-07-12,sms,Escitalopram,5mg,once daily,21,female
+P20438,M392T,RX1000045,,PH3234,2024-04-18,2024-04-18,2024-05-18,2024-05-17,30,0.88,always,,false,,,Valsartan,80mg,once daily,71,male
+P21380,M492H,RX1000046,DR141,PH3235,2023-11-23,2023-11-24,2023-12-22,2023-12-22,28,0.91,always,,false,,,Empagliflozin,10mg,once daily,62,female
+P20902,M111F,RX1000047,DR142,PH3236,2100-01-01,,,,,0,never,system error,true,2100-01-02,other,Experimental,0mg,unknown,120,unknown
+P20065,M765Z,RX1000048,DR143,,2023-04-15,2023-04-16,2023-05-13,2023-05-12,28,0.9,always,,false,,,Bisoprolol,5mg,once daily,54,female
+P20601,M713V,RX1000049,DR144,PH3237,2024-02-07,2024-02-08,2024-03-07,2024-03-07,28,0.92,always,,false,,,Insulin glargine,10 units,once daily,57,male
+P21200,M655W,RX1000050,,PH3238,2023-06-02,2023-06-03,2023-07-01,2023-07-02,28,0.94,always,,false,,,Carvedilol,12.5mg,twice daily,75,male
+P20001,M201A,RX2000001,DR201,PH2101,2023-11-04,2023-11-05,2023-12-05,2023-12-04,30,0.97,always,,false,,,Atorvastatin,20mg,once daily,56,male
+P20002,M202B,RX2000002,DR202,PH2102,2024-02-10,2024-02-11,2024-03-13,2024-03-13,30,0.92,always,,false,,,Metformin,500mg,twice daily,61,female
+P20003,M203C,RX2000003,DR203,PH2103,2024-01-23,,,,,0,never,forgot,true,2024-01-28,sms,Sertraline,50mg,once daily,28,female
+P20004,M204D,RX2000004,DR204,PH2101,2023-12-01,2023-12-03,2024-01-02,2024-01-04,30,0.86,always,,false,,,Lisinopril,10mg,once daily,66,male
+P20005,M205E,RX2000005,DR205,,2023-08-14,,,,,0,never,could not afford,true,2023-08-19,phone_call,Escitalopram,10mg,once daily,32,female
+P20006,M206F,RX2000006,DR206,PH2104,2022-09-19,2022-09-20,2022-09-27,2022-09-27,7,1,always,,false,,,Amoxicillin,250mg,three times daily,7,male
+P20007,M207G,RX2000007,,PH2105,2024-03-10,,,,,0,never,side effects,true,2024-03-15,counseling,Ibuprofen,400mg,as needed,22,male
+P20008,M208H,RX2000008,DR207,PH2106,2023-10-12,2023-10-13,2023-11-12,2023-11-12,30,0.94,always,,false,,,Levothyroxine,75mcg,once daily,48,female
+P20009,M209I,RX2000009,DR208,PH2102,2023-09-25,2023-09-25,2023-10-25,2023-10-25,30,0.73,sometimes,forgot,false,,,Amlodipine,5mg,once daily,64,female
+P20010,M210J,RX2000010,DR209,PH2103,2022-12-11,2022-12-12,2023-01-11,2023-01-10,30,0.95,always,,false,,,Simvastatin,20mg,once daily,71,female
+P20011,M211K,RX2000011,,,2023-04-29,,,,,0,never,travel,true,2023-05-05,phone_call,Paroxetine,20mg,once daily,19,female
+P20012,M212L,RX2000012,DR210,PH2107,2023-06-30,2023-07-01,2023-08-01,2023-07-30,31,0.89,always,,false,,,Hydrochlorothiazide,25mg,once daily,59,male
+P20013,M213M,RX2000013,DR211,PH2108,2023-08-17,2023-08-19,2023-09-18,2023-09-17,30,0.91,always,,false,,,Losartan,50mg,once daily,67,female
+P20014,M214N,RX2000014,DR212,PH2109,2023-05-23,2023-05-24,2023-06-23,2023-06-24,31,0.76,sometimes,difficulty swallowing,false,,,Glipizide,10mg,once daily,72,male
+P20015,M215O,RX2000015,DR213,PH2110,2024-03-05,2024-03-06,2024-04-05,2024-04-06,30,0.98,always,,false,,,Rosuvastatin,10mg,once daily,54,female
+P20016,M216P,RX2000016,DR214,,2024-04-20,,,,,0,never,lost prescription,true,2024-04-24,education,Venlafaxine,75mg,once daily,27,male
+P20017,M217Q,RX2000017,DR215,PH2111,2022-03-15,2022-03-16,2022-03-30,2022-03-29,14,1,always,,false,,,Azithromycin,250mg,once daily,15,female
+P20018,M218R,RX2000018,DR216,PH2112,2023-07-19,2023-07-20,2023-08-19,,30,0.68,sometimes,travel,false,,,Gliclazide,80mg,once daily,74,male
+P20019,M219S,RX2000019,DR217,PH2105,2023-01-20,,,,,0,never,no symptoms,true,2023-01-25,sms,Fluoxetine,20mg,once daily,18,female
+P20020,M220T,RX2000020,DR218,PH2113,2023-06-05,2023-06-06,2023-07-06,2023-07-07,30,0.95,always,,false,,,Bisoprolol,5mg,once daily,68,male
+P20021,M221U,RX2000021,DR219,PH2114,2023-03-30,2023-03-31,2023-04-30,2023-04-30,30,0.84,always,,false,,,Enalapril,10mg,once daily,53,male
+P20022,M222V,RX2000022,DR220,PH2115,2023-11-18,2023-11-19,2023-12-19,2023-12-20,30,0.91,always,,false,,,Pravastatin,40mg,once daily,57,female
+P20023,M223W,RX2000023,,,1900-01-01,,,,,0,never,system error,true,1900-01-03,other,Experimental,100mg,unknown,120,unknown
+P20024,M224X,RX2000024,DR221,PH2116,2023-05-09,2023-05-10,2023-06-09,2023-06-09,30,0.93,always,,false,,,Duloxetine,30mg,once daily,58,female
+P20025,M225Y,RX2000025,DR222,PH2117,2024-02-27,2024-02-28,2024-03-28,,29,0.77,sometimes,forgot,false,,,Clopidogrel,75mg,once daily,69,male
+P20026,M226Z,RX2000026,DR223,PH2118,2023-02-16,2023-02-17,2023-03-19,,30,0.61,sometimes,difficulty swallowing,false,,,Pioglitazone,15mg,once daily,85,female
+P20027,M227A,RX2000027,DR224,PH2119,2022-08-23,2022-08-24,2022-09-23,2022-09-22,30,0.98,always,,false,,,Carvedilol,12.5mg,once daily,63,male
+P20028,M228B,RX2000028,,,2100-05-15,,,,,0,never,language barrier,true,2100-05-20,other,Aspirin,81mg,unknown,0,unknown
+P20029,M229C,RX2000029,DR225,PH2120,2023-07-02,2023-07-03,2023-07-10,2023-07-10,7,1,always,,false,,,Cephalexin,250mg,twice daily,10,male
+P20030,M230D,RX2000030,DR226,PH2121,2023-09-10,2023-09-10,2023-10-10,2023-10-10,30,0.89,always,,false,,,Tamsulosin,0.4mg,once daily,52,male
+P20031,M231E,RX2000031,DR227,PH2122,2023-02-12,2023-02-13,2023-03-13,2023-03-15,28,0.82,always,,false,,,Warfarin,2mg,once daily,81,male
+P20032,M232F,RX2000032,DR228,,2022-11-27,,,,,0,never,prescription lost,true,2022-12-02,phone_call,Mirtazapine,15mg,once daily,34,other
+P20033,M233G,RX2000033,DR229,PH2123,2024-01-03,2024-01-04,2024-02-03,2024-02-03,30,0.92,always,,false,,,Glimepiride,2mg,once daily,60,female
+P20034,M234H,RX2000034,DR230,PH2124,2023-04-10,2023-04-10,2023-05-10,,30,0.63,sometimes,forgot,false,,,Spironolactone,25mg,once daily,78,female
+P20035,M235I,RX2000035,DR231,PH2125,2023-05-11,2023-05-11,2023-06-11,2023-06-11,31,0.96,always,,false,,,Dapagliflozin,10mg,once daily,62,male
+P20036,M236J,RX2000036,DR232,PH2126,2024-03-14,2024-03-15,2024-04-14,,30,0.78,sometimes,travel,false,,,Empagliflozin,10mg,once daily,80,female
+P20037,M237K,RX2000037,DR233,PH2127,2023-11-12,2023-11-14,2023-12-14,2023-12-13,30,0.93,always,,false,,,Rivaroxaban,20mg,once daily,65,female
+P20038,M238L,RX2000038,DR234,PH2128,2022-10-21,2022-10-22,2022-10-29,2022-10-29,7,1,always,,false,,,Clarithromycin,500mg,twice daily,4,other
+P20039,M239M,RX2000039,DR235,PH2129,2023-06-01,2023-06-02,2023-07-02,2023-07-01,30,0.9,always,,false,,,Ezetimibe,10mg,once daily,55,male
+P20040,M240N,RX2000040,DR236,PH2130,2023-09-08,2023-09-09,2023-10-09,,30,0.51,rarely,side effects,true,2023-09-20,counseling,Duloxetine,30mg,once daily,46,female
+P20041,M241O,RX2000041,,PH2131,2024-04-02,2024-04-03,2024-04-10,,7,1,always,,false,,,Oseltamivir,75mg,twice daily,8,female
+P20042,M242P,RX2000042,DR237,PH2132,2023-03-14,2023-03-15,2023-04-14,2023-04-14,30,0.94,always,,false,,,Ramipril,5mg,once daily,73,female
+P20043,M243Q,RX2000043,DR238,PH2133,2024-01-19,2024-01-20,2024-02-20,2024-02-19,31,0.99,always,,false,,,Sitagliptin,100mg,once daily,64,male
+P20044,M244R,RX2000044,DR239,PH2134,2022-05-17,2022-05-18,2022-06-01,2022-06-02,14,0.87,always,,false,,,Amoxicillin,500mg,three times daily,3,other
+P20045,M245S,RX2000045,DR240,PH2135,2023-10-05,2023-10-06,2023-11-05,,30,0.48,rarely,side effects,true,2023-10-18,counseling,Sertraline,50mg,once daily,24,female
+P20046,M246T,RX2000046,,,2022-07-01,,,,,0,never,no symptoms,true,2022-07-07,education,Ibuprofen,400mg,as needed,21,male
+P20047,M247U,RX2000047,DR241,PH2136,2024-03-24,2024-03-25,2024-04-24,,31,0.85,always,,false,,,Metformin,1000mg,twice daily,47,female
+P20048,M248V,RX2000048,DR242,PH2137,2023-12-24,2023-12-25,2024-01-25,,32,0.78,sometimes,forgot,false,,,Lisinopril,20mg,once daily,84,male
+P20049,M249W,RX2000049,DR243,,2023-01-15,,,,,0,never,could not afford,true,2023-01-20,sms,Paroxetine,20mg,once daily,29,female
+P20050,M250X,RX2000050,DR244,PH2138,2023-10-18,2023-10-19,2023-11-18,2023-11-18,30,0.87,always,,false,,,Amlodipine,10mg,once daily,58,male
+P12003,M027A,RX1000001,DR104,PH2001,2023-06-15,2023-06-16,2023-07-16,2023-07-15,30,0.97,always,,false,,,Atorvastatin,20mg,once daily,66,male
+P12004,M112D,RX1000002,DR122,PH2023,2022-12-22,,,,,0,never,no symptoms,true,2023-01-05,phone_call,Sertraline,50mg,once daily,31,female
+P12005,M045E,RX1000003,DR103,PH2020,2023-07-18,2023-07-18,2023-08-17,2023-08-18,30,0.89,always,,false,,,Lisinopril,10mg,once daily,58,female
+P12006,M128H,RX1000004,DR139,PH2019,2024-01-20,2024-01-21,2024-01-28,2024-01-27,7,1,always,,false,,,Amoxicillin,250mg,three times daily,10,male
+P12007,M077C,RX1000005,DR136,,2023-05-10,,,,,0,never,forgot,true,2023-05-18,sms,Fluoxetine,20mg,once daily,27,female
+P12008,M099B,RX1000006,DR119,PH2011,2023-09-10,2023-09-11,2023-10-11,2023-10-10,30,0.93,always,,false,,,Metformin,500mg,twice daily,62,male
+P12009,M064F,RX1000007,DR125,PH2005,2022-10-01,2022-10-02,2022-11-01,2022-11-03,30,0.69,sometimes,forgot,false,,,Glipizide,5mg,once daily,73,female
+P12010,M054K,RX1000008,DR121,PH2029,2023-03-05,,,,,0,never,could not afford,true,2023-03-18,counseling,Sumatriptan,100mg,as needed,39,female
+P12011,M186G,RX1000009,DR110,PH2021,2023-11-02,2023-11-02,2023-11-09,,7,1,always,,false,,,Azithromycin,250mg,once daily,16,other
+P12012,M142L,RX1000010,DR136,,2023-08-07,,,,,0,never,side effects,true,2023-08-20,education,Naproxen,500mg,as needed,25,male
+P12013,M175D,RX1000011,DR111,PH2008,2023-01-11,2023-01-12,2023-02-10,2023-02-10,29,0.85,always,,false,,,Losartan,50mg,once daily,49,female
+P12014,M204J,RX1000012,DR112,PH2013,2023-04-20,2023-04-21,2023-05-19,2023-05-21,28,0.68,sometimes,difficulty swallowing,false,,,Metoprolol,25mg,twice daily,81,male
+P12015,M220K,RX1000013,,PH2027,2024-01-01,,,,,0,never,system error,true,2024-01-04,other,Experimental,5mg,once daily,120,unknown
+P12016,M189B,RX1000014,DR101,PH2025,2023-10-15,2023-10-15,2023-11-14,,30,0.94,always,,false,,,Levothyroxine,100mcg,once daily,52,female
+P12017,M221C,RX1000015,DR116,,2023-02-25,,,,,0,never,travel,true,2023-03-03,phone_call,Escitalopram,10mg,once daily,19,male
+P12018,M035F,RX1000016,DR137,PH2012,2022-11-30,2022-12-01,2022-12-29,2022-12-30,28,0.75,sometimes,forgot,false,,,Glyburide,2.5mg,once daily,74,female
+P12019,M188M,RX1000017,DR125,PH2009,2023-05-27,2023-05-27,2023-06-03,,7,0.91,always,,false,,,Cephalexin,500mg,twice daily,11,female
+P12020,M077J,RX1000018,DR121,PH2006,2023-12-10,2023-12-11,2024-01-10,,30,0.88,always,,false,,,Amlodipine,5mg,once daily,47,male
+P12021,M052N,RX1000019,DR108,PH2011,2023-02-15,,,,,0,never,could not afford,true,2023-02-28,phone_call,Venlafaxine,75mg,once daily,22,female
+P12022,M055P,RX1000020,DR141,PH2004,2024-02-01,2024-02-02,2024-03-03,,30,1,always,,false,,,Rosuvastatin,10mg,once daily,54,male
+P12023,M099T,RX1000021,DR132,PH2022,2023-06-24,,,,,0,never,prescription lost,true,2023-07-01,other,Ibuprofen,400mg,as needed,18,other
+P12024,M083Y,RX1000022,DR130,PH2018,2023-07-01,2023-07-02,2023-08-01,2023-07-31,30,0.71,sometimes,travel,false,,,Hydrochlorothiazide,25mg,once daily,65,male
+P12025,M201X,RX1000023,DR114,,2022-12-28,,,,,0,never,lost prescription,true,2023-01-12,phone_call,Paroxetine,30mg,once daily,29,female
+P12026,M066U,RX1000024,DR126,PH2030,2023-08-27,2023-08-27,2023-09-26,2023-09-27,30,0.92,always,,false,,,Simvastatin,40mg,once daily,60,male
+P12027,M110Q,RX1000025,,PH2002,1900-01-01,,,,,1,always,,false,,,Aspirin,81mg,once daily,0,unknown
+P12028,M053T,RX1000026,DR106,PH2003,2023-06-20,2023-06-21,2023-07-21,,30,0.97,always,,false,,,Pravastatin,20mg,once daily,71,female
+P12029,M121O,RX1000027,DR106,PH2026,2023-09-15,,,,,0,never,language barrier,true,2023-09-23,counseling,Levocetirizine,5mg,once daily,31,other
+P12030,M011S,RX1000028,DR131,PH2011,2023-10-09,2023-10-09,2023-11-08,,30,0.9,always,,false,,,Duloxetine,30mg,once daily,44,female
+P12031,M134W,RX1000029,DR140,,2022-08-18,,,,,0,never,no symptoms,true,2022-08-25,education,Citalopram,20mg,once daily,26,male
+P12032,M071I,RX1000030,DR113,PH2024,2023-11-23,2023-11-23,2023-12-21,2023-12-21,28,0.95,always,,false,,,Enalapril,10mg,once daily,61,male
+P12033,M039P,RX1000031,DR128,PH2026,2023-05-04,,,,,0,never,forgot,true,2023-05-21,phone_call,Propranolol,40mg,twice daily,20,male
+P12034,M144T,RX1000032,DR127,PH2031,2022-09-03,2022-09-03,2022-09-10,2022-09-10,7,0.98,always,,false,,,Clarithromycin,500mg,twice daily,7,female
+P12035,M092N,RX1000033,DR101,PH2007,2023-01-30,2023-01-30,2023-02-27,2023-02-27,28,0.89,always,,false,,,Gabapentin,300mg,once daily,45,other
+P12036,M032Q,RX1000034,DR105,PH2015,2023-05-13,2023-05-15,2023-06-14,,30,0.95,always,,false,,,Hydralazine,25mg,twice daily,67,female
+P12037,M176Y,RX1000035,DR131,,2023-03-20,,,,,0,never,side effects,true,2023-03-29,counseling,Bupropion,150mg,once daily,33,female
+P12038,M140A,RX1000036,DR107,PH2005,2023-04-18,2023-04-19,2023-05-19,2023-05-18,30,0.86,always,,false,,,Pioglitazone,30mg,once daily,70,male
+P12039,M031R,RX1000037,DR114,PH2028,2023-07-23,2023-07-24,2023-08-23,,30,0.92,always,,false,,,Carvedilol,6.25mg,twice daily,63,female
+P12040,M019U,RX1000038,DR133,PH2032,2023-01-12,,,,,0,never,system error,true,2023-01-18,other,Experimental,10mg,unknown,0,unknown
+P12041,M172K,RX1000039,DR102,PH2010,2023-04-04,2023-04-05,2023-05-05,2023-05-06,30,0.67,sometimes,forgot,false,,,Chlorthalidone,25mg,once daily,76,male
+P12042,M099U,RX1000040,DR129,PH2001,2023-07-07,,,,,0,never,could not afford,true,2023-07-15,phone_call,Desvenlafaxine,50mg,once daily,34,female
+P12043,M200L,RX1000041,DR120,PH2014,2023-12-12,2023-12-13,2024-01-12,2024-01-13,30,0.94,always,,false,,,Dapagliflozin,10mg,once daily,68,male
+P12044,M178M,RX1000042,DR117,PH2033,2023-09-28,2023-09-29,2023-10-29,,30,0.88,always,,false,,,Empagliflozin,25mg,once daily,59,female
+P12045,M180C,RX1000043,DR141,PH2016,2023-03-12,,,,,0,never,no symptoms,true,2023-03-20,phone_call,Escitalopram,10mg,once daily,21,other
+P12046,M182T,RX1000044,DR138,PH2004,2023-11-29,2023-11-29,2023-12-13,,14,0.92,always,,false,,,Penicillin VK,250mg,four times daily,14,male
+P12047,M119F,RX1000045,DR135,PH2006,2023-05-30,2023-05-31,2023-06-30,2023-06-30,30,0.93,always,,false,,,Bisoprolol,10mg,once daily,59,female
+P12048,M186M,RX1000046,,PH2025,2100-01-01,,,,,1,always,,false,,,Aspirin,81mg,once daily,120,unknown
+P12049,M002B,RX1000047,DR109,PH2027,2023-10-18,2023-10-19,2023-11-18,2023-11-18,30,0.96,always,,false,,,Allopurinol,100mg,once daily,75,male
+P12050,M019T,RX1000048,DR123,PH2034,2023-12-04,2023-12-05,2024-01-04,,30,0.98,always,,false,,,Rivaroxaban,20mg,once daily,57,female
+P10400,M301A,RX5000100,DR231,PH3001,2023-10-10,2023-10-11,2023-11-10,2023-11-09,30,0.97,always,,false,,,Atorvastatin,20mg,once daily,63,male
+P10401,M302B,RX5000101,DR232,PH3002,2024-01-15,2024-01-16,2024-02-15,2024-02-13,30,0.92,always,,false,,,Lisinopril,10mg,once daily,55,female
+P10402,M303C,RX5000102,DR233,PH3001,2023-05-20,2023-05-21,2023-06-20,2023-06-21,30,0.89,always,,false,,,Metformin,500mg,twice daily,67,female
+P10403,M304D,RX5000103,DR234,PH3003,2024-02-02,2024-02-02,2024-03-04,2024-03-04,31,1,always,,false,,,Levothyroxine,75mcg,once daily,46,male
+P10404,M305E,RX5000104,,PH3004,2023-07-13,2023-07-14,2023-08-13,,30,0.77,sometimes,forgot,false,,,Amlodipine,5mg,once daily,71,female
+P10405,M306F,RX5000105,DR235,PH3005,2023-06-18,2023-06-18,2023-07-18,,30,0.69,sometimes,difficulty swallowing,false,,,Simvastatin,20mg,once daily,74,male
+P10406,M307G,RX5000106,DR236,PH3004,2022-12-01,2022-12-03,2023-01-02,2023-01-03,30,0.91,always,,false,,,Hydrochlorothiazide,25mg,once daily,65,female
+P10407,M308H,RX5000107,DR237,PH3002,2023-03-27,2023-03-27,2023-04-26,,30,0.92,always,,false,,,Metoprolol,50mg,once daily,60,male
+P10408,M309I,RX5000108,DR238,PH3003,2023-08-05,2023-08-07,2023-09-06,,30,0.86,always,,false,,,Rosuvastatin,10mg,once daily,52,female
+P10409,M310J,RX5000109,DR239,,2023-11-12,,,,,0,never,could not afford,true,2023-12-01,phone_call,Sertraline,50mg,once daily,34,female
+P10410,M311K,RX5000110,DR240,PH3006,2023-04-11,,,,,0,never,side effects,true,2023-04-23,counseling,Ibuprofen,200mg,as needed,27,male
+P10411,M312L,RX5000111,DR241,PH3007,2024-03-15,2024-03-15,2024-04-14,,30,0.98,always,,false,,,Losartan,50mg,once daily,59,female
+P10412,M313M,RX5000112,DR242,PH3008,2023-01-20,,,,,0,never,no symptoms,true,2023-02-01,sms,Escitalopram,10mg,once daily,25,female
+P10413,M314N,RX5000113,DR243,PH3007,2023-12-29,2023-12-29,2024-01-28,2024-01-28,30,0.76,sometimes,travel,false,,,Glipizide,5mg,once daily,82,male
+P10414,M315O,RX5000114,DR244,,2023-09-04,,,,,0,never,lost prescription,true,2023-09-14,education,Paroxetine,20mg,once daily,30,male
+P10415,M316P,RX5000115,DR245,PH3009,2022-11-18,2022-11-18,2022-12-18,2022-12-20,30,0.88,always,,false,,,Duloxetine,30mg,once daily,41,female
+P10416,M317Q,RX5000116,DR246,PH3010,2024-04-01,2024-04-01,2024-04-29,,28,0.73,sometimes,forgot,false,,,Glimepiride,2mg,once daily,76,female
+P10417,M318R,RX5000117,DR247,PH3011,2023-06-05,2023-06-06,2023-07-06,2023-07-07,30,0.9,always,,false,,,Carvedilol,12.5mg,twice daily,69,male
+P10418,M319S,RX5000118,DR248,PH3012,2023-07-11,2023-07-12,2023-08-11,,30,0.97,always,,false,,,Clopidogrel,75mg,once daily,62,female
+P10419,M320T,RX5000119,,PH3013,2022-10-14,2022-10-15,2022-11-14,,30,0.85,always,,false,,,Warfarin,5mg,once daily,77,male
+P10420,M321U,RX5000120,DR249,,2024-05-05,2024-05-06,2024-06-05,,30,0.94,always,,false,,,Pravastatin,40mg,once daily,58,female
+P10421,M322V,RX5000121,DR250,PH3014,2023-02-25,,,,,0,never,system error,true,2023-03-10,other,Experimental,100mg,unknown,120,unknown
+P10422,M323W,RX5000122,DR251,PH3015,2023-11-07,,,,,0,never,language barrier,true,2023-11-16,phone_call,Aspirin,81mg,once daily,0,other
+P10423,M324X,RX5000123,DR252,PH3016,2023-03-19,2023-03-20,2023-03-27,2023-03-28,7,0.95,always,,false,,,Amoxicillin,250mg,three times daily,5,male
+P10424,M325Y,RX5000124,DR253,PH3017,2023-04-08,2023-04-08,2023-04-22,,14,0.88,always,,false,,,Azithromycin,500mg,once daily,14,female
+P10425,M326Z,RX5000125,DR254,PH3018,2022-09-15,,,,,0,never,could not afford,true,2022-09-25,phone_call,Oral Contraceptive,1 tablet,once daily,18,female
+P10426,M327A,RX5000126,DR255,PH3019,2024-06-10,2024-06-11,2024-07-11,,30,0.97,always,,false,,,Montelukast,10mg,once daily,8,other
+P10427,M328B,RX5000127,DR256,PH3001,2023-10-01,2023-10-01,2023-10-31,,30,0.92,always,,false,,,Prednisone,5mg,once daily,44,male
+P10428,M329C,RX5000128,DR257,PH3002,2023-02-01,,,,,0,never,no symptoms,true,2023-02-15,education,Bupropion,150mg,once daily,31,male
+P10429,M330D,RX5000129,DR258,,2023-05-25,2023-05-25,2023-06-24,,30,0.85,always,,false,,,Enalapril,10mg,once daily,48,female
+P10430,M331E,RX5000130,DR259,PH3003,2023-08-29,2023-08-29,2023-09-28,2023-09-27,30,0.97,always,,false,,,Furosemide,40mg,once daily,83,female
+P10431,M332F,RX5000131,DR260,PH3004,2023-11-10,,,,,0,never,forgot,true,2023-11-20,sms,Topiramate,25mg,once daily,23,other
+P10432,M333G,RX5000132,,PH3005,2022-07-12,2022-07-13,2022-08-12,2022-08-13,30,0.94,always,,false,,,Albuterol,90mcg,as needed,11,male
+P10433,M334H,RX5000133,DR261,PH3006,2023-12-15,2023-12-16,2024-01-15,,30,0.92,always,,false,,,Cetirizine,10mg,once daily,36,female
+P10434,M335I,RX5000134,DR262,,2024-01-11,,,,,0,never,side effects,true,2024-01-19,counseling,Sertraline,50mg,once daily,27,female
+P10435,M336J,RX5000135,DR263,PH3007,2023-09-12,2023-09-13,2023-10-13,2023-10-15,30,0.89,always,,false,,,Metformin,500mg,twice daily,68,male
+P10436,M337K,RX5000136,DR264,PH3008,2023-01-10,2023-01-11,2023-02-10,2023-02-11,30,0.75,sometimes,difficulty swallowing,false,,,Glyburide,5mg,once daily,75,female
+P10437,M338L,RX5000137,DR265,PH3009,2023-11-15,2023-11-15,2023-12-15,,30,0.77,sometimes,travel,false,,,Losartan,25mg,once daily,62,male
+P10438,M339M,RX5000138,DR266,PH3010,2022-08-18,,,,,0,never,lost prescription,true,2022-08-25,education,Fluoxetine,20mg,once daily,22,female
+P10439,M340N,RX5000139,DR267,PH3011,2023-06-16,2023-06-17,2023-07-17,,30,0.94,always,,false,,,Spironolactone,25mg,once daily,50,female
+P10440,M341O,RX5000140,,,1900-01-01,,,,,0,never,system error,true,1900-01-15,other,Experimental,100mg,unknown,0,unknown
+P10441,M342P,RX5000141,DR268,PH3012,2023-08-18,2023-08-19,2023-09-18,2023-09-17,30,0.95,always,,false,,,Tamsulosin,0.4mg,once daily,72,male
+P10442,M343Q,RX5000142,DR269,PH3013,2023-12-20,,,,,0,never,no symptoms,true,2023-12-28,phone_call,Venlafaxine,75mg,once daily,26,male
+P10443,M344R,RX5000143,DR270,PH3014,2023-05-03,2023-05-04,2023-06-03,,30,0.93,always,,false,,,Bisoprolol,5mg,once daily,57,female
+P10444,M345S,RX5000144,DR271,PH3015,2023-03-08,,,,,0,never,forgot,true,2023-03-18,sms,Escitalopram,10mg,once daily,29,female
+P10445,M346T,RX5000145,DR272,PH3016,2024-02-14,2024-02-15,2024-03-14,,28,0.98,always,,false,,,Levothyroxine,125mcg,once daily,69,female
+P10446,M347U,RX5000146,DR273,PH3017,2023-07-07,2023-07-07,2023-08-06,,30,0.89,always,,false,,,Amlodipine,10mg,once daily,54,male
+P10447,M348V,RX5000147,DR274,PH3018,2022-10-30,2022-10-30,2022-11-29,,30,0.91,always,,false,,,Rosuvastatin,20mg,once daily,66,female
+P10448,M349W,RX5000148,DR275,,2100-12-01,,,,,0,never,system error,true,2100-12-10,other,Experimental,100mg,unknown,120,unknown
+P10449,M350X,RX5000149,DR276,PH3019,2023-07-18,2023-07-19,2023-08-18,,30,0.95,always,,false,,,Simvastatin,40mg,once daily,64,male
+P10123,M201A,RX0000123,DR110,PH3201,2023-09-12,2023-09-13,2023-10-12,2023-10-12,30,0.97,always,,false,,,Atorvastatin,20mg,once daily,57,male
+P10457,M410B,RX0000457,DR143,,2024-01-19,,,,,0,never,could not afford,true,2024-01-27,phone_call,Sertraline,50mg,once daily,29,female
